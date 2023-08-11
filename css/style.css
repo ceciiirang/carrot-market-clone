@@ -3,6 +3,12 @@
 @import "footer.css";
 @import "main.css";
 
+/* 변수를 선언해둬서 전체에 적용하기 : 색상도 변수로 관리할 수 있다.*/
+:root {
+  --button-primary: coral;
+  --button-hover: rgba(255, 127, 80, 0.8);
+}
+
 body {
   font-family: -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo",
     "Pretendard Variable", Pretendard, Roboto, "Noto Sans KR", "Segoe UI",
